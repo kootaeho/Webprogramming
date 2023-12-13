@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Webprogramming Project</title>
+</head>
+<body>
+    <form id = "login-form" class = "hidden" >
+        <input 
+        required maxlength = "15"
+        type="text"
+        placeholder="이름을 입력하세요"
+        />
+        <input type="submit" value="Log in"/>
+    </form>
+    <h1 id = "greeting" class = "hidden"></h1>
+    <h2 id = "clock">00:00:00</h2>
+    <form id ="todo-form">
+        <input type = "text" class = "todo-input" placeholder="해야 할 일을 작성해보세요!"/>
+    </form>
+    <ul id = "todo-list">
+    </ul>
+    <div id="quotes">
+        <span></span>
+        <a id="quoteAuthor" href="" target="_blank"></a>
+    </div>
+    <div id = "weather">
+        <span></span>
+        <span></span>
+    </div>
+    <div id = "CheckCount">
+        <span></span>
+    </div>
+    <div><button id = "BackgroundChangeButton">배경 변경</div>
+
+    <div id="background"></div>
+    <div id="Tier">
+        <img id="tierImage" src="" alt="Tier Image" style="width: 100px; height: 100px;" />
+    </div>
+
+    <button id="delete-checked-todos">비우기</button>
+    <script src = "js/welcome.js"></script>
+    <script src = "js/clock.js"></script>
+    <script src = "js/quote.js"></script>
+    <script src = "js/background.js"></script>
+    <script src = "js/todo.js"></script>
+    <script src = "js/weather.js"></script>
+
+
+    </body>
+</html>
